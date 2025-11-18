@@ -555,3 +555,95 @@ p {
 section {
     scroll-margin-top: 100px;
 }
+
+/* Logo Placeholders */
+.logo-placeholder {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-text-main {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #22c55e;
+    letter-spacing: 2px;
+}
+
+.logo-text-sub {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #16a34a;
+    letter-spacing: 1px;
+}
+
+.hero-logo-placeholder {
+    text-align: center;
+    padding: 2rem;
+}
+
+.jef-circle-logo {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+    animation: pulse 2s infinite;
+}
+
+.circle-text {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.hero-logo-subtitle {
+    color: #16a34a;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.about-logo-placeholder {
+    text-align: center;
+    padding: 2rem;
+}
+
+.jef-circle-logo-large {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgba(34, 197, 94, 0.3);
+}
+
+.circle-text-large {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 4px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 15px 40px rgba(34, 197, 94, 0.4);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+    }
+}
